@@ -1,0 +1,12 @@
+{
+  "type": "material",
+  "name": "Nuclear-warhead",
+  "description": "Now we're all sons of bitches",
+  "hardness": 9,
+  "cost": 10.0,
+  "color": "#00FF15",
+  "tier": 3,
+  "explosiveness": 1000,
+  "flammability": 1000
+  "radioactivity": 10
+}

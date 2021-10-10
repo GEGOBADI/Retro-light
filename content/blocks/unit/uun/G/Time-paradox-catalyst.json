@@ -1,0 +1,41 @@
+{
+	"type": "Reconstructor",
+	"name": "Time paradox catalyst",
+	"description": "WHAT THE HELL",
+	"size": 10,
+	"constructTime": 6,
+	"time": 300,
+	"consumes": {
+		"power": 800,
+		"items": {
+			"items": [
+		{"item": "silicon", "amount": 300},
+      	{"item": "Steel", "amount": 700},
+      	{"item": "graphite", "amount": 200},
+      	{"item": "titanium", "amount": 1100},
+        {"item": "Tilicium", "amount": 1500},
+		{"item": "uranium-235", "amount": 450},
+		{"item": "Diamond", "amount": 200},
+		{"item": "Obsidian", "amount": 500},
+		{"item": "Element-G", "amount": 10},
+			]
+		},
+	},
+	"requirements": [
+    {"item": "Element-G", "amount": 50},
+    {"item": "silicon", "amount": 3800},
+    {"item": "Steel", "amount": 2000},
+    {"item": "graphite", "amount": 2800},
+    {"item": "titanium", "amount": 3600},
+    {"item": "Iron-ingot", "amount": 3700},
+	{"item": "uranium-235", "amount": 2000},
+	{"item": "Diamond", "amount": 1350},
+	{"item": "Obsidian", "amount": 1750},
+	{"item": "Tilicium", "amount": 2500},
+	],
+	"upgrades": [
+		["Eve's-core", "Machine-of-new-time"],
+	],
+	"category": "units",
+	"research": "router"
+}

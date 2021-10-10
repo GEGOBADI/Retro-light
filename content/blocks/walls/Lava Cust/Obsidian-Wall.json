@@ -1,0 +1,12 @@
+{
+  "name": "Obsidian Big Wall",
+  "description": "DA",
+  "type": "Wall",
+  "health": 10000,
+  "size": 2,
+  "requirements": [
+    { "item": "Obsidian", "amount": 24}
+  ],
+  "category": "defense",
+  "research": "router",
+}

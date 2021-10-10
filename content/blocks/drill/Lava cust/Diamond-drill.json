@@ -1,0 +1,39 @@
+{
+	"type": "Drill",
+	"name": "Diamond drill",
+	"description": "Just drill",
+	"size": 5,
+	"tier": 8,
+	"rotateSpeed": 10,
+	"consumes": {
+		"power": 100
+},
+	"drillTime": 900,
+	"itemCapacity": 125,
+	"warmupSpeed": 1,
+	"hasLiquids": true,
+	  "consumes": {
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 1,
+		}
+		"items":{
+			"items":[
+			{"item": "Diamond-dust", "amount": 50},
+			]
+		}
+	  }
+	"drillEffect": "mineBig",
+  "updateEffect": "plasticExplosion",
+  "updateEffectChance": 0.01,
+	"requirements": [
+    {"item": "Steel", "amount": 2000},
+    {"item": "titanium", "amount": 1500},
+    {"item": "silicon", "amount": 1000},
+    {"item": "Iron-ingot", "amount": 500},
+	{"item": "Diamond", "amount": 50},
+	{"item": "Obsidian", "amount": 250},
+	],
+	"category": "production",
+	"research": "laser-drill"
+}

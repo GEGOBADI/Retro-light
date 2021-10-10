@@ -1,0 +1,12 @@
+{
+  "name": "Chitin big wall",
+  "description": "DA",
+  "type": "Wall",
+  "health": 4000,
+  "size": 2,
+  "requirements": [
+    { "item": "Chitin", "amount": 24}
+  ],
+  "category": "defense",
+  "research": "router",
+}

@@ -1,0 +1,11 @@
+{
+  "type": "material",
+  "name": "Iron-ingot",
+  "description": "",
+  "hardness": 1,
+  "cost": 2.0,
+  "color": "#FFEE93",
+  "tier": 3,
+  "explosiveness": 0.00,
+  "flammability": 0
+}

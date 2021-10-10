@@ -1,0 +1,32 @@
+{
+  "type": "GenericSmelter",
+  "name": "Workshop-for-the-manufacture-of-nuclear-weapons",
+  "description": "What the...",
+  "outputItem": {"item": "Nuclear-warhead", "amount": 1},
+  "size": 4,
+  "hasPower": false,
+  "hasItem": true,
+  "itemCapacity": 3000,
+  "craftTime": 40,
+  "updateEffect": "burning",
+  "consumes": {
+    "items":{
+      "items":[
+        {"item": "Iron-ingot", "amount": 1000},
+		{"item": "uranium-235", "amount": 400},
+		{"item": "powder", "amount": 200},
+		{"item": "Steel", "amount": 650},
+      ]
+    }
+  },
+  "requirements": [
+    {"item": "Steel", "amount": 1000},
+    {"item": "Iron-ingot", "amount": 1350},
+    {"item": "silicon", "amount": 430},
+    {"item": "graphite", "amount": 500},
+  ],
+  "category": "crafting",
+  "research": "router",
+  "idleSound": "respawning",
+  "idleSoundVolume": 2
+}

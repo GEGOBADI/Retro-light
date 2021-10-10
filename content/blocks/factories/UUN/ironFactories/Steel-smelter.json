@@ -1,0 +1,29 @@
+{
+  "type": "GenericSmelter",
+  "name": "Steel-smelter",
+  "description": "You were able to learn how to make steel",
+  "outputItem": {"item": "Steel", "amount": 5},
+  "size": 3,
+  "hasPower": false,
+  "hasItem": true,
+  "craftTime": 120,
+  "updateEffect": "burning",
+  "consumes": {
+    "items":{
+      "items":[
+        {"item": "Iron-ingot", "amount": 5},
+		{"item": "coal", "amount": 10},
+      ]
+    }
+  },
+  "requirements": [
+    {"item": "metaglass", "amount": 250},
+    {"item": "silicon", "amount": 200},
+    {"item": "graphite", "amount": 100},
+    {"item": "Iron-ingot", "amount": 50},
+  ],
+  "category": "crafting",
+  "research": "router",
+  "idleSound": "respawning",
+  "idleSoundVolume": 2
+}

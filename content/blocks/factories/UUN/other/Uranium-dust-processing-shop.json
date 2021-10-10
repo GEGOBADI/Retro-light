@@ -1,0 +1,28 @@
+{
+  "type": "GenericSmelter",
+  "name": "Uranium dust processing shop",
+  "description": "Yeah. This maybe cool",
+  "outputItem": {"item": "uranium-235", "amount": 1},
+  "size": 3,
+  "hasPower": false,
+  "hasItem": true,
+  "craftTime": 6000,
+  "updateEffect": "burning",
+  "consumes": {
+    "items":{
+      "items":[
+        {"item": "uranium", "amount": 5},
+      ]
+    }
+  },
+  "requirements": [
+    {"item": "Steel", "amount": 200},
+    {"item": "silicon", "amount": 200},
+    {"item": "graphite", "amount": 300},
+    {"item": "Iron-ingot", "amount": 400},
+  ],
+  "category": "crafting",
+  "research": "router",
+  "idleSound": "respawning",
+  "idleSoundVolume": 2
+}
