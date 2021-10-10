@@ -1,0 +1,44 @@
+{
+	"name": "4-decay",
+"description": "---",
+"speed": 15,
+"accel": 0.1,
+"drag": 0.1,
+"lowAltitude": true,
+"flying": true,
+"health": 24000,
+"armor": 5,
+"engineOffset": 6,
+"engineColor": "#00000000",
+"engineSize": 0.0001,
+"range": 400,
+"targetAir": true,
+"commandLimit": 4,
+"circleTarget": true,
+"faceTarget": true,
+"immunities": [
+		"burning",
+		"melting"
+		],
+"weapons": [
+{
+  "name": "Cutter",
+  "ignoreRotation": true,
+  "reload": 50,
+  "alternate": true,
+  "mirror": true,
+  "top": false,
+  "bullet": {
+    "type": "Basic",
+    "shootEffect": "shootSmall",
+    "shootSound": "shoot",
+		"status": "shielded",
+    "damage": 500,
+    "speed": 50,
+	"lifetime": 50,
+    "backColor": "#FDD970",
+    "frontColor": "#FDD970"
+  }
+},
+]
+}
