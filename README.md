@@ -1,2 +1,5 @@
 # Retro-light
-Join my discord - https://discord.gg/PHXQMmKsxa
+Hello world!
+My creater - GEGOBADI
+Join discord - https://discord.gg/PHXQMmKsxa
+Remember me (Joga) :)
