@@ -1,0 +1,12 @@
+{
+  "type": "material",
+  "name": "Uranium-235",
+  "description": "I'm not sure if it's safe",
+  "hardness": 9,
+  "cost": 10.0,
+  "color": "#00ff00",
+  "tier": 3,
+  "explosiveness": 100,
+  "flammability": 0.3
+  "radioactivity": 50
+}

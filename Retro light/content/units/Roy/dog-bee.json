@@ -1,0 +1,44 @@
+"name": "dog-bee",
+"description": "---",
+"type": "flying",
+"speed": 7,
+"accel": 0.1,
+"drag": 0.1,
+"flying": true,
+"health": 175,
+"buildSpeed": 1.5,
+"armor": 10,
+"engineOffset": 6,
+"engineColor": "#00000000",
+"engineSize": 0.0001,
+"range": 200,
+"commandLimit": 20,
+"circleTarget": true,
+"immunities": [
+		"burning",
+		"melting"
+		],
+"weapons": [
+{
+  "name": "Acidic-gland-d-b",
+  "ignoreRotation": true,
+  "reload": 80,
+  "x": 0,
+  "y": 5.7,
+  "alternate": true,
+  "mirror": true,
+  "top": false,
+  "bullet": {
+    "type": "Basic",
+    "shootEffect": "shootSmall",
+    "shootSound": "shoot",
+		"status": "shielded",
+    "damage": 225,
+    "speed": 5,
+	"bulletWidth": 600,
+    "bulletHeight": 600,
+    "backColor": "#0DFF00",
+    "frontColor": "#0DFF00"
+  }
+},
+]

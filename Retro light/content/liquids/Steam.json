@@ -1,0 +1,11 @@
+{
+  "name": "Steam",
+  "description": "Just steam. nothing special",
+  "color": "#B7B7B7",
+  "temperature": 100,
+  "flammability": 0,
+  "viscosity": 0.000000000000000000000000000000000000000000000000000000000000001,
+  "heatCapacity": 100,
+  "explosiveness": 0,
+  "flameColor": "#ffa0ff"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "material",
+  "name": "Larva",
+  "description": "What is this rubbish! Is it alive!?! \n serves as building material and food for Roy",
+  "hardness": 0,
+  "cost": 10.0,
+  "color": "#91440E",
+  "tier": 3,
+  "explosiveness": 2,
+  "flammability": 2
+  "radioactivity": 2
+}

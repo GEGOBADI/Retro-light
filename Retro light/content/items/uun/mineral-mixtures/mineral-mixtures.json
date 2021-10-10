@@ -1,0 +1,11 @@
+{
+  "type": "material",
+  "name": "Mineral-mixtures",
+  "description": "Mix of different minerals",
+  "hardness": 1,
+  "cost": 2.0,
+  "color": "#664F4F",
+  "tier": 3,
+  "explosiveness": 0.3,
+  "flammability": 0.3
+}

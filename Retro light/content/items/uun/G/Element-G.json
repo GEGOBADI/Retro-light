@@ -1,0 +1,11 @@
+{
+  "type": "material",
+  "name": "Element G",
+  "description": "not stable material, developed only in UUN",
+  "hardness": 10,
+  "cost": 2.0,
+  "color": "#FFD275",
+  "tier": 3,
+  "explosiveness": 15.0,
+  "flammability": 15.0
+}

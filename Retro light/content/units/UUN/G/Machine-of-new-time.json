@@ -1,0 +1,131 @@
+{"name": "Machine of new time ",
+"description": "Oh my god...",
+"speed": 1,
+"accel": 0.1,
+"drag": 0.1,
+"lowAltitude": true,
+"flying": true,
+"health": 500000,
+"armor": 50,
+"engineOffset": 6,
+"engineColor": "#00000000",
+"engineSize": 0.0001,
+"range": 50,
+"targetAir": true,
+"commandLimit": 1000,
+"circleTarget": true,
+"faceTarget": true,
+"rotateSpeed": 1,
+"immunities": [
+		"burning",
+		"melting"
+		],
+"weapons": [
+{
+  "name": "Negation",
+  "rotateSpeed": 5,
+  "rotate": true,
+  "type": "itemTurret"
+  "ignoreRotation": true,
+  "reload": 40,
+  "x": 24,
+  "y": 105,
+  "alternate": true,
+  "mirror": true,
+  "top": false,
+  "bullet": {
+    "type": "Basic",
+	"pierce": true,
+    "shootEffect": "shootSmall",
+    "shootSound": "Negation-big.ogg",
+		"status": "shielded",
+    "damage": 5000,
+    "speed": 25,
+	"bulletWidth": 600,
+    "bulletHeight": 600,
+    "backColor": "#13F2EA",
+    "frontColor": "#13F2EA"
+  }
+},
+{
+  "name": "Negation",
+  "type": "itemTurret"
+  "ignoreRotation": true,
+  "rotate": true,
+  "rotateSpeed": 5,
+  "reload": 40,
+  "x": 35,
+  "y": 20,
+  "alternate": true,
+  "mirror": true,
+  "top": false,
+  "bullet": {
+    "type": "Basic",
+    "shootEffect": "shootSmall",
+    "shootSound": "Negation-big.ogg",
+	"status": "shielded",
+	"pierce": true,
+    "damage": 5000,
+    "speed": 25,
+	"bulletWidth": 600,
+    "bulletHeight": 600,
+    "backColor": "#13F2EA",
+    "frontColor": "#13F2EA"
+  }
+},
+{
+  "name": "Negation",
+  "type": "itemTurret"
+  "rotateSpeed": 5,
+  "ignoreRotation": true,
+  "rotate": true,
+  "reload": 40,
+  "x": 40,
+  "y": -20,
+  "alternate": true,
+  "mirror": true,
+  "top": false,
+  "bullet": {
+    "type": "Basic",
+    "shootEffect": "shootSmall",
+    "shootSound": "Negation-big.ogg",
+	"status": "shielded",
+	"pierce": true,
+    "damage": 5000,
+    "speed": 25,
+	"bulletWidth": 600,
+    "bulletHeight": 600,
+    "backColor": "#13F2EA",
+    "frontColor": "#13F2EA"
+  }
+},
+{
+  "name": "Negation-big",
+  "rotateSpeed": 2,
+  "type": "itemTurret"
+  "ignoreRotation": true,
+  "rotate": true,
+  "reload": 200,
+  "splashDamage": 5000,
+  "splashDamageRadius": 300,
+  "x": 0,
+  "y": -40,
+  "alternate": true,
+  "mirror": false,
+  "top": false,
+   "bullet": {
+    "type": "Basic",
+    "shootEffect": "shootSmall",
+    "shootSound": "Negation-big.ogg",
+	"status": "shielded",
+	"pierce": true,
+    "damage": 10000,
+    "speed": 250,
+	"bulletWidth": 6000,
+    "bulletHeight": 6000,
+    "backColor": "#13F2EA",
+    "frontColor": "#13F2EA"
+}
+},
+]
+}
