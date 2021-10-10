@@ -1,0 +1,44 @@
+{
+  "name": "Air-defense",
+  "description": "Pow Pow!",
+  "type": "itemTurret"
+  "requirements": [
+    {"item": "Iron-ingot", "amount": 150},
+    {"item": "graphite", "amount": 100},
+    {"item": "silicon", "amount": 100},
+  ] ,
+  "ammoTypes": {
+    "cartridge": {
+      "trailEffect": "fire",
+      "damage": 100,
+      "splashDamage": 1,
+      "splashDamageRadius": 1,
+      "ammoMultiplier": 3,
+      "speed": 10,
+	  "lifeTime": 1,
+      "status": "melting",
+      "despawnEffect": "fire",
+      "smokeEffect": "fireSmoke",
+      "shootEffect": "shootSmallSmoke",
+      "bulletWidth": 15,
+      "bulletHeight": 10,
+      "backColor": "#fff200",
+      "frontColor": "#fff200"
+    }
+  },
+  "reloadTime": 20,
+  "alternate": false,
+  "targetAir": true,
+  "targetGround": false,
+  "shots": 1,
+  "burstSpacing": 6,
+  "inaccuracy": 2.5,
+  "top": true,
+  "liquidBoostIntensity": 1.1,
+  "range": 400,
+  "size": 2,
+  "shootSound": "boom",
+  "health": 1700,
+  "research": "lancer",
+  "category": "turret",
+}

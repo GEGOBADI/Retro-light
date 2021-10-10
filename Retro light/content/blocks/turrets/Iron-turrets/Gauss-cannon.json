@@ -1,0 +1,48 @@
+{
+  "name": "Gauss-cannon",
+  "description": "Pow Pow!",
+  "type": "itemTurret"
+  "requirements": [
+    {"item": "Iron-ingot", "amount": 1500},
+    {"item": "graphite", "amount": 200},
+    {"item": "silicon", "amount": 400},
+	{"item": "Steel", "amount": 750},
+  ] ,
+  "ammoTypes": {
+    "Steel": {
+      "trailEffect": "fire",
+      "damage": 250,
+      "splashDamage": 1,
+      "splashDamageRadius": 1,
+      "ammoMultiplier": 3,
+      "speed": 100,
+	  "lifeTime": 0.1,
+      "status": "shocked",
+      "despawnEffect": "fire",
+      "smokeEffect": "fireSmoke",
+      "shootEffect": "shootSmallSmoke",
+      "bulletWidth": 15,
+      "bulletHeight": 10,
+      "backColor": "#fff200",
+      "frontColor": "#fff200"
+    }
+  },
+  "reloadTime": 100,
+  "alternate": true,
+  "hasPower": true,
+  "targetAir": true,
+  "targetGround": true,
+    "consumes": {
+	  "power": 10
+	  },
+  "shots": 1,
+  "burstSpacing": 6,
+  "inaccuracy": 2.5,
+  "liquidBoostIntensity": 1.1,
+  "range": 800,
+  "size": 4,
+  "shootSound": "boom",
+  "health": 1700,
+  "research": "lancer",
+  "category": "turret",
+}

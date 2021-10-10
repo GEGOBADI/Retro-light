@@ -1,0 +1,5 @@
+{
+  "type":     "OreBlock",
+  "itemDrop": "Pieces-of-biomaterial",
+  "oreDeafult": true
+}

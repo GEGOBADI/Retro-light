@@ -1,0 +1,12 @@
+{
+  "name": "Uranium big wall",
+  "description": "DA",
+  "type": "Wall",
+  "health": 20000,
+  "size": 2,
+  "requirements": [
+    { "item": "uranium-235", "amount": 24}
+  ],
+  "category": "defense",
+  "research": "router",
+}

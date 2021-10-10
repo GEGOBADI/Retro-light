@@ -1,0 +1,12 @@
+{
+  "name": "Biomaterial big wall",
+  "description": "DA",
+  "type": "Wall",
+  "health": 2400,
+  "size": 2,
+  "requirements": [
+    { "item": "Pieces-of-biomaterial", "amount": 24}
+  ],
+  "category": "defense",
+  "research": "router",
+}

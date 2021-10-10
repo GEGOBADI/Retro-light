@@ -1,0 +1,32 @@
+"type": "Reconstructor",
+	"name": "Improved-Air-Reconnaissance-Corps",
+	"description": "Upgrades units.",
+	"size": 7,
+	"constructTime": 6000,
+	"consumes": {
+		"power": 8,
+		"items": {
+			"items": [
+        {"item": "silicon", "amount": 380},
+      	{"item": "Steel", "amount": 100},
+      	{"item": "graphite", "amount": 480},
+      	{"item": "titanium", "amount": 760},
+        {"item": "Iron-ingot", "amount": 270},
+			]
+		},
+	},
+	"requirements": [
+    {"item": "silicon", "amount": 970},
+    {"item": "Steel", "amount": 450},
+    {"item": "graphite", "amount": 780},
+    {"item": "titanium", "amount": 1260},
+    {"item": "Iron-ingot", "amount": 470},
+	],
+	"upgrades": [
+		["snow-A-12", "SR-91"],
+		["dark-A-12", "SR-91"],
+		["desert-A-12", "SR-91"],
+		["forest-A-12", "SR-91"],
+	],
+	"category": "units",
+	"research": "router"

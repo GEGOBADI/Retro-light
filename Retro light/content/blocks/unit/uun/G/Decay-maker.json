@@ -1,0 +1,30 @@
+{
+	"type": "UnitFactory",
+"description": "Subjects Element G to its first decay period",
+"name": "Decay maker",
+"size": 6,
+"consumes": {
+"power": 20
+},
+"plans": [
+{
+  "unit": "1-decay",
+  "requirements": [
+  ]
+  "time": 200,
+},
+],
+"requirements": [
+        {"item": "silicon", "amount": 2300},
+      	{"item": "Steel", "amount": 700},
+      	{"item": "graphite", "amount": 1200},
+      	{"item": "titanium", "amount": 2100},
+        {"item": "Iron-ingot", "amount": 1500},
+		{"item": "uranium-235", "amount": 750},
+		{"item": "Diamond", "amount": 200},
+		{"item": "Obsidian", "amount": 500},
+		{"item": "Element-G", "amount": 1},
+],
+"category": "units",
+"research": "ground-factory"
+}

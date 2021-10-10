@@ -1,0 +1,26 @@
+{
+  "type": "GenericSmelter",
+  "name": "Chitin plant",
+  "description": "Uhh...",
+  "outputItem": {"item": "Chitin", "amount": 2},
+  "size": 4,
+  "hasPower": false,
+  "hasItem": true,
+  "craftTime": 130,
+  "updateEffect": "burning",
+  "consumes": {
+    "items":{
+      "items":[
+        {"item": "Pieces-of-biomaterial", "amount": 7},
+      ]
+    }
+  },
+  "requirements": [
+    {"item": "Pieces-of-biomaterial", "amount": 500},
+    {"item": "Larva", "amount": 20},
+  ],
+  "category": "crafting",
+  "research": "router",
+  "idleSound": "respawning",
+  "idleSoundVolume": 2
+}

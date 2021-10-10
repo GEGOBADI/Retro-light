@@ -1,0 +1,31 @@
+{
+  "type": "GenericSmelter",
+  "name": "Mineral-disconnector-6LvL",
+  "description": "Create thorium",
+  "outputItem": {"item": "thorium", "amount": 5},
+  "size": 2,
+  "hasPower": false,
+  "hasItem": true,
+  "craftTime": 60,
+  "itemCapasity": 21,
+  "updateEffect": "burning",
+  "consumes": {
+    "items":{
+      "items":[
+        {"item": "mineral-mixtures", "amount": 20},
+      ]
+    }
+  },
+  "requirements": [
+    {"item": "Iron-ingot", "amount": 500},
+	{"item": "copper", "amount": 750},
+	{"item": "lead", "amount": 750},
+	{"item": "graphite", "amount": 200},
+	{"item": "silicon", "amount": 200},
+	{"item": "metaglass", "amount": 200},
+  ],
+  "category": "crafting",
+  "research": "router",
+  "idleSound": "respawning",
+  "idleSoundVolume": 2
+}

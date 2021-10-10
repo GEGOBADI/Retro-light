@@ -1,0 +1,44 @@
+type: "PowerTurret"
+name: "Gloss"
+description: "lightning fast rate of fire! high damage and a large radius of attack, but the turret is quite fragile, and requires a lot of energy"
+health: 15000
+reloadTime: 8
+rotateSpeed: 12
+powerUse: 4
+targetAir: true
+targetGround: true
+range: 225
+size: 9
+shootType: {
+  type: LaserBulletType
+    length: 220
+    damage: 360
+    width: 60
+    lifetime: 60
+    lightningSpacing: 120
+    lightningLength: 30
+    lightningDelay: 2.0
+    lightningLengthRand: 10
+    lightningDamage: 65
+    lightningAngleRand: 10
+    largeHit: true
+    shootEffect: greenLaserCharge
+    collidesTeam: true
+	status: Shocked
+    sideAngle: 15
+    sideWidth: 0
+    sideLength: 0
+    colors: [0004FF, FEFF9A, FDFF42]
+}
+cooldown: 5
+heatColor: "ff0000"
+shootSound: "spark"
+requirements: [
+	Iron-ingot/1250
+	Tilicium/175
+    silicon/750
+	titanium/1750
+	Steel/1500
+]
+category: "turret"
+research: "arc"
