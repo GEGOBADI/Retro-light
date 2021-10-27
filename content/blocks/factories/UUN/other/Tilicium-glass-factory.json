@@ -1,0 +1,35 @@
+{
+  "type": "GenericSmelter",
+  "name": "Tilicium glass factory",
+  "description": "Yeah. This maybe cool",
+  "outputItem": {"item": "Tilicium-glass", "amount": 5},
+  "size": 4,
+  "hasPower": true,
+    "consumes": {
+"power": 40
+},
+  "hasItem": true,
+  "craftTime": 600,
+  "updateEffect": "burning",
+  "consumes": {
+    "items":{
+      "items":[
+        {"item": "metaglass", "amount": 5},
+		{"item": "Tilicium", "amount": 5},
+      ]
+    }
+  },
+  "requirements": [
+    {"item": "Steel", "amount": 250},
+    {"item": "silicon", "amount": 200},
+    {"item": "graphite", "amount": 300},
+    {"item": "Iron-ingot", "amount": 400},
+	{"item": "titanium", "amount": 350},
+	{"item": "thorium", "amount": 150},
+	{"item": "Tilicium", "amount": 250},
+  ],
+  "category": "crafting",
+  "research": "router",
+  "idleSound": "respawning",
+  "idleSoundVolume": 2
+}
