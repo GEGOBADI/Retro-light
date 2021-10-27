@@ -1,0 +1,12 @@
+{
+  "type": "material",
+  "name": "Tilicium glass",
+  "description": "I'm not sure if it's safe",
+  "hardness": 10,
+  "cost": 10.0,
+  "color": "#002BFF",
+  "tier": 3,
+  "explosiveness": 1,
+  "flammability": 0.1
+  "radioactivity": 2
+}
