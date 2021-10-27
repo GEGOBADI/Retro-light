@@ -15,16 +15,15 @@ shootType: {
     damage: 360
     width: 60
     lifetime: 60
-    lightningSpacing: 120
+    lightningSpacing: 45
     lightningLength: 30
     lightningDelay: 2.0
     lightningLengthRand: 10
-    lightningDamage: 65
+    lightningDamage: 32
     lightningAngleRand: 10
     largeHit: true
     shootEffect: greenLaserCharge
     collidesTeam: true
-	status: Shocked
     sideAngle: 15
     sideWidth: 0
     sideLength: 0
@@ -34,6 +33,7 @@ cooldown: 5
 heatColor: "ff0000"
 shootSound: "spark"
 requirements: [
+    Tilicium-glass/1200
 	Iron-ingot/1250
 	Tilicium/175
     silicon/750
